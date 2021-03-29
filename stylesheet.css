@@ -287,18 +287,12 @@ a {
 .social-media {
     font-family: 'Source Sans Pro', sans-serif;    
     font-size: 15px;
-    margin: 0 auto;
     text-align: center;
-    color: #102120;
+    color: #fff;
 }
 
-.social-media a{
-    border-radius: 50%;
-    background-color: #fff;
-    width: 25px;
-    height: 25px;
-    text-align: center;
-    transition: .6s;
-    box-shadow: 0 5px 4px rgba(255,255,255,.5);
+.social-media img{
+    padding: 5px 5px;
 }
+
 /* Finishing:Natalia Intan Kharisma */
