@@ -1,0 +1,99 @@
+ /* Untuk Smartphone */
+ @media all and (max-width: 670px) {
+    .logo {
+        font-size: 40px;
+    }
+    /* .header-list {
+        font-size: 35px;
+        display: none;
+        color: rgb(184, 133, 39);
+    }
+
+    .checkbtn {
+        display: block;
+    }
+    .header-list ul {
+        position: fixed;
+        width: 100%;
+        height: 50vh;
+        background-color: #000;
+        top : 80px;
+        left: 0;
+        transition: all .5s;
+        left: -100px;
+        text-align: center;
+    } */
+
+    .menu-icon{
+        display:block;
+    }
+      
+    .header-list li {
+        display: none;
+    }
+    /* .header-list ul li a {
+        font-size: 20px;
+    }
+    .header-list a:hover, .header-list a:active {
+        background: none;
+        color: rgb(184, 133, 39);
+    } */
+    .header-quotes h1 {
+        margin-top: 500px;
+        margin-bottom: 50px;
+        font-size: calc(40px + 3vw);
+        text-shadow: 3px 3px #444444b3;
+    }
+    .header-quotes {
+        width: 100%;
+    }
+    .adopt {
+        font-size: 30px;
+    }
+    .since {
+        margin-top: 600px;
+        font-size: 25px;
+    }
+    .content-wrapper {
+        height: 75vh;
+    }
+    .content {
+        float:none;
+        width: 100%;
+    }
+    .content-icon {
+        margin-bottom: 40px;
+        width: 90%;
+    }
+    .content-quote {
+        padding :70px 30px 70px 80px;
+    }
+    .content-quote h1 {
+        font-size: 50px;
+    }
+    .content-quote p {
+        font-size: 20px;
+    }
+    .learn {
+        font-size: 17px;
+        margin-top: 40px;
+    }
+    .message p:nth-child(2) {
+        font-size: 20px;
+    }
+    .message p:nth-child(1) {
+        font-size: 30px;
+    }
+    .message-wrapper {
+        height: 280px;
+    }
+    .footer-logo {
+        font-size: 30px;
+    }
+    .footer-list li a {
+        font-size: 20px;
+    }
+    .year {
+        font-size: 20px;
+    }
+  }
