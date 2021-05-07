@@ -1,98 +1,189 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>Petsion</title>
-    <link rel="stylesheet" href="stylesheet.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
-    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
-    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap" rel="stylesheet">
-    <link rel="preconnect" href="https://fonts.gstatic.com/%22%3E">
-    <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Raleway:wght@200&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="responsive.css">
-    <link rel="stylesheet" href="respon.css">
+<html lang="en">
+<head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  </head>
-  <body>
+    <link rel="stylesheet" href="style.css">
+    <title>Petsion Project DTS 2021</title>
 
-    <header id="header-background">
-      <div class="top-wrapper">
-        <div class="header-logo">
-            <label class="logo">PETSION</label>
-        </div>
-        <div class="header-list">
-          <span class="fa fa-bars menu-icon"></span>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#">About</a></li>
-                <li><a href="#">Adopt Me!</a></li>
-                <li class="btn-sign"><a href="#">Sign In</a></li>
-            </ul>
-        </div>
-        <div class="header-quotes">
-            <h1>Adorable Best Friend <br/>
-            <span> makes you </span>Smile<span> and <br/>
-            it feels like </span>Home.</h1>
-        </div>
-        <div class="btn adopt">
-          <a href="#">Adopt Me! ></a>
-        </div>
-      </div>
-      <div class="since">Since 2021</div>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <script src="https://kit.fontawesome.com/4ed1331d40.js" crossorigin="anonymous"></script>
+
+</head>
+<body>
+    <header>
+        <!-- Bootstrap Navbar -->
+        <nav class="navbar navbar-expand-lg navbar-dark container py-3 fixed-top">
+            <div class="container-fluid">
+                <!-- Logo -->
+              <a class="navbar-brand" href="Petsion.html">PETSION</a>
+
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa fa-bars text-light" aria-hidden="true"></i>
+              </button>
+              
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-2 mb-2 mb-lg-0">
+                  <li class="nav-item ml-5">
+                    <a class="nav-link" href="Petsion.html">Home</a>
+                  </li>
+                  <li class="nav-item ml-5">
+                    <a class="nav-link" href="#about">About</a>
+                  </li>
+                  <li class="nav-item ml-5">
+                    <a class="nav-link" href="#animal">Adopt Me!</a>
+                  </li> 
+                  <li class="nav-item ml-5">
+                    <a class="nav-link sign" href="#" tabindex="-1" aria-disabled="true">Sign In</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+          <section id="home">
+            <div class="overlay"></div>
+            <div class="container">
+                <div class="row pt-5">
+                    <div class="home-text col-md-8 col-sm-12">
+                    <h1>Adorable Best Friend for You</h1>
+                    <p>Makes you Smile and it feels like Home</p>
+                    <ul class="section-btn">
+                        <a href="#"><span data-hover="Learn More">Learn More</span></a>
+                    </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
     </header>
 
-    <section class="content-wrapper">
-      <div class="content-wrapper">
-        <div class="contents">
-          <div class="content">
-            <div class="content-icon">
-              <img src="https://images.unsplash.com/photo-1508675801627-066ac4346a61?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1045&q=80" alt="content-photo" class="content-icon">
-            </div>
-          </div>
-          <div class="content">
-            <div class="content-quote">
-              <h1>About Us</h1>
-              <p>Petsion is a website designed for animal support, specifically in adoptions which established in 2021. This website was designed and built by D12 Team Project for fulfilling the task of Digital Talent Scolarship 2021 which incorporated with Progate.</p>
-              <div class="btn learn">
-                <a href="#">Learn More ></a>
+    <section id="about">
+      <div class="container py-5">
+        <div class="row py-5 my-5">
+          <div class="container overflow-hidden">
+            <div class="row gx-5">
+              <div class="col">
+               <div class="p-0 content">
+                <img src="https://images.unsplash.com/photo-1508675801627-066ac4346a61?ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=1045&q=80" alt="content-photo">
+               </div>
+              </div>
+              <div class="col col-about">
+                <div class="p-3 border bg-dark text-light">
+                  <h1>About Us</h1>
+                  <p>Petsion is a website designed for animal support, specifically in adoptions which established in 2021. This website was designed and built by D12 Team Project for fulfilling the task of Digital Talent Scolarship 2021 which incorporated with Progate.</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-        <div class="clear"></div>
       </div>
     </section>
 
-    <section class="message-wrapper">
-      <div class="message">
-        <h1>Animals are not our Whole life,<br>
-        but they make our live Whole</h1>
-        <p>-Roger Caras</p>
-        <p>Don't harm them! Love them and you will get their true love.</p>
+    <section id="animal">
+      <div class="container py-5">
+        <div class="row row-cols-1 row-cols-md-3 g-4">
+          <div class="col">
+            <div class="card photo">
+              <a href="#">
+                <img src="https://images.unsplash.com/photo-1558788353-f76d92427f16?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=678&q=80" class="card-img-top" alt="Victor-Grabarczyk-Dog">
+                <div class="project-overlay">
+                  <div class="project-info">
+                    <h1>Hi, I am Regal</h1>
+                    <h3>Adopt Me!</h3>
+                  </div>
+                </div>
+              </a>
+              <div class="card-body">
+                <h5 class="card-title text-center">Golden Retriever</h5>
+                <p class="card-text">Massa placerat duis ultricies lacus. Ultricies mi quis hendrerit dolor magna. Ornare suspendisse sed nisi lacus sed viverra tellus. </p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card photo">
+              <img src="https://images.unsplash.com/photo-1537151608828-ea2b11777ee8?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=639&q=80" class="card-img-top" alt="Alvan-Nee-Dog">
+              <div class="project-overlay">
+                <div class="project-info">
+                  <h1>Hi, I am Chico</h1>
+                  <h3>Adopt Me!</h3>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Papillon</h5>
+                <p class="card-text">Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col">
+            <div class="card photo">
+              <img src="https://images.unsplash.com/photo-1472053092455-ee16a8b358b9?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=634&q=80" class="card-img-top" alt="Milada-Vigerova-cat">
+              <div class="project-overlay">
+                <div class="project-info">
+                  <h1>Hi, I am Grey</h1>
+                  <h3>Adopt Me!</h3>
+                </div>
+              </div>
+              <div class="card-body">
+                <h5 class="card-title text-center">Russian Blue</h5>
+                <p class="card-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.</p>
+              </div>
+            </div>
+          </div>
       </div>
     </section>
-    
-    <footer class="footer-background">
-      <div class="container">
-        <div class="footer-logo">PETSION</div>
-        <div class="footer-list">
-          <ul>
-            <li><a href="#" class="privacy-policy">Privacy Policy</a></li>
-            <li><a href="#" class="about-us">About Us</a></li>
-            <li><a href="#" class="contact-us">Contact Us</a></li>
-          </ul>
+
+    <section id="quote">
+      <div class="container py-5">
+        <figure class="text-center">
+          <blockquote class="blockquote">
+            <h1>Animals are not our Whole life,<br>
+              but they make our live Whole</h1>
+          </blockquote>
+          <figcaption class="blockquote-footer mt-3">
+            Roger Caras<br/>
+            <h6><em>Don't harm them! Love them and you will get their true love.</em></h6>
+          </figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <footer class="py-5 bg-dark">
+      <div class="container py-5 text-light">
+        <div class="row">
+          <div class="col-md-5 col-sm-6">
+            <h2>Petsion</h2>
+            <p>423 Vel turpis nunc eget, lorem dolor,<br/> Sagittis nisl rhoncus,<br/>Dignissim convallis.</p>
+          </div>
+          <div class="col-md-3 offset-md-4">
+            <h2>Keep in Touch</h2>
+            <p><a href="#">010-101-0101</a></p>
+            <p><a href="#">info@petsion.com</a></p>
+            <p><a href="#">Our Location</a></p>
+          </div>
+
+          <div class="container">
+            <div class="social-icon list-unstyled d-flex justify-content-center">
+              <li><a href="#"><i class="fa fa-twitter text-dark px-1" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-facebook text-dark px-1" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-instagram text-dark px-1" aria-hidden="true"></i></a></li>
+              <li><a href="#"><i class="fa fa-linkedin text-dark px-1" aria-hidden="true"></i></a></li>
+            </div>
+            <div class="copyright-text text-center">
+              <p>Copyright © 2021 Petsion | Design by: <a href="nataliaintan.get-site.net">Natalia Intan</a> </p>
+            </div>
+          </div>
         </div>
-        <div class="social-media">
-          <p>Follow Us</p>
-              <a href="#" class="btn-facebook"><img src="icon fb.png" alt= "image" height="50" width="50"></a>
-              <a href="#" class="btn-twitter"><img src="icon twitter.png" alt= "image" height="50" width="50"></a>
-              <a href="#" class="btn-instagram"><img src="icon ig.png" alt= "image" height= "50" width="50"></a>
-        </div> 
-        <div class="year">2021</div>   
-        </div>
-      </div>  
+      </div>
     </footer>
 
-  </body>
+
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/js/bootstrap.bundle.min.js" integrity="sha384-JEW9xMcG8R+pH31jmWH6WWP0WintQrMb4s7ZOdauHnUtxwoG2vI5DkLtS3qm9Ekf" crossorigin="anonymous"></script>
+</body>
 </html>
