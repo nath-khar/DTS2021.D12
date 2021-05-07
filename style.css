@@ -160,6 +160,7 @@ header{
 
 #animal .photo:hover .project-overlay{
     opacity: 1;
+    cursor: pointer;
 }
 
 #animal .photo .project-overlay .project-info{
